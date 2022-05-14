@@ -1,6 +1,5 @@
 import { Sequelize } from "sequelize-typescript";
 import  { config } from "./config/config";
-console.log(`sequelize file`);
 export const sequelize = new Sequelize({
   username: config.username,  
   password: config.password,
@@ -11,5 +10,3 @@ export const sequelize = new Sequelize({
   dialect: "postgres",
   storage: ":memory:",
 });
-
-console.log(`end of sequelize file`);
