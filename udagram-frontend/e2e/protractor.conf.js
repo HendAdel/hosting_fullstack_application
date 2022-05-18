@@ -12,7 +12,7 @@ exports.config = {
     'browserName': 'chrome'
   },
   directConnect: true,
-  baseUrl: 'http://localhost:4200/',
+  baseUrl: 'http://http://hnd-uda-bucket.s3-website-us-east-1.amazonaws.com/home:4200/',
   framework: 'jasmine',
   jasmineNodeOpts: {
     showColors: true,
