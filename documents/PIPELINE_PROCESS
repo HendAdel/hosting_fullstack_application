@@ -1,0 +1,5 @@
+1- Develoment environment connecting to remote repostory on githup.
+2- CircleCi connecting to gitup repo.
+3- AWS cloud services connecting to CircleCi
+
+> When new changes push to githup, the circleci do the build job and deploy the new version of the app to the aws cloud. So the user will see the new changes as soon as developer made it.
