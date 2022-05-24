@@ -50,6 +50,7 @@ workflows:
   build_and_deploy:
     jobs:
       - build:
+      # Add filter to run only with changes made on main branch
         filters:
           branches:
             only:
